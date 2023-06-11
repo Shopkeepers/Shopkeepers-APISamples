@@ -1,0 +1,8 @@
+name: ShopkeepersAPISamples
+version: '${pluginVersion}'
+authors: [blablubbabc]
+website: '${dboUrl}'
+description: '${description}'
+
+main: de.blablubbabc.shopkeepersAPISamples.ShopkeepersAPISamplesPlugin
+depend: [Shopkeepers]
