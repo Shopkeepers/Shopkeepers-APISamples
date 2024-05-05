@@ -31,11 +31,15 @@ repositories {
 	maven { url 'https://hub.spigotmc.org/nexus/content/groups/public/' }
 	// Shopkeepers API
 	maven { url 'https://nexus.lichtspiele.org/repository/releases/' }
+	// Shopkeepers API Fallback
+	//maven { url 'https://jitpack.io' }
 }
 
 dependencies {
 	compileOnly 'org.bukkit:bukkit:1.19.4-R0.1-SNAPSHOT'
 	compileOnly 'com.nisovin.shopkeepers:ShopkeepersAPI:2.19.0'
+	// Fallback
+	//compileOnly 'com.github.Shopkeepers:Shopkeepers:master-SNAPSHOT'
 
 	testImplementation 'org.bukkit:bukkit:1.19.4-R0.1-SNAPSHOT'
 	testImplementation 'junit:junit:4.13.1'
