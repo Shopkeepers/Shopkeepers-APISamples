@@ -30,14 +30,14 @@ repositories {
 	// Bukkit/Spigot API
 	maven { url 'https://hub.spigotmc.org/nexus/content/groups/public/' }
 	// Shopkeepers API
-	maven { url 'https://nexus.lichtspiele.org/repository/releases/' }
+	maven { url 'https://repo.projectshard.dev/repository/releases/' }
 	// Shopkeepers API Fallback
 	//maven { url 'https://jitpack.io' }
 }
 
 dependencies {
 	compileOnly 'org.bukkit:bukkit:1.19.4-R0.1-SNAPSHOT'
-	compileOnly 'com.nisovin.shopkeepers:ShopkeepersAPI:2.19.0'
+	compileOnly 'com.nisovin.shopkeepers:ShopkeepersAPI:2.21.0'
 	// Fallback
 	//compileOnly 'com.github.Shopkeepers:Shopkeepers:master-SNAPSHOT'
 
