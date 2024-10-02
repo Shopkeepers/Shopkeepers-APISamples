@@ -1,4 +1,4 @@
-package de.blablubbabc.shopkeepersAPISamples;
+package de.blablubbabc.shopkeepersAPISamples.tradeEvents;
 
 import com.nisovin.shopkeepers.api.events.ShopkeeperTradeEvent;
 import com.nisovin.shopkeepers.api.trading.TradeEffect;

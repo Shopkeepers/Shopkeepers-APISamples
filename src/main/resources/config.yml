@@ -1,0 +1,3 @@
+enable-ui-listener: true
+enable-trade-listener: true
+enable-item-updater: true
